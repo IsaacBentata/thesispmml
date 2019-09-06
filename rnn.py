@@ -148,7 +148,7 @@ for d in column_names:
 
     number = number + 1
 
-    features_dataset = df[['fed', 'dollar_index', 'sp500', 'inventory', 'production', 'Ratio', d + ' Movavg']].values
+    features_dataset = df[['fed', 'dollar_index', 'sp500', 'inventory', 'production', 'Ratio']].values
 
     label = df[d].values
 
