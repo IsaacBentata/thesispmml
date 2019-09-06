@@ -1,0 +1,24 @@
+
+{
+	"data":{
+		"start_date":"2010/01/01",
+		"end_date":"2019/05/05",
+		"market_types":["stock"],
+		"ktype":"D"
+	},
+	"session":{
+		"start_date":"2010/01/04",
+		"end_date":"2019/05/05",
+		"market_types":"Oil3",
+		"codes":["1M", "2M", "3M"],
+		"features":["close", "SP500 Price", "Ratio", "Production", "Inventory", "Fed Rate", "Dollar Index"],
+		"agents":["CNN","PG",	"1"],
+		"epochs":"1000",
+		"noise_flag":"False",
+		"record_flag":"True",
+		"plot_flag":"True",
+		"reload_flag":"False",
+		"trainable":"True",
+		"method":"model_free"
+	}
+}
